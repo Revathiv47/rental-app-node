@@ -61,3 +61,6 @@ app.post("/", async function(req,res){
         })
     }
 })
+app.listen(process.env.PORT || 3000, function(){
+    console.log(`The app is listening in port 3000`)
+})
